@@ -24,7 +24,7 @@
 
       $ch = curl_init();
 
-      curl_setopt($ch, CURLOPT_URL, 'http://10-cl.normaten.com/subscribe' );
+      curl_setopt($ch, CURLOPT_URL, 'http://cl1.normaten.com/subscribe' );
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1 );
       curl_setopt($ch, CURLOPT_POST,           1 );
       curl_setopt($ch, CURLOPT_HEADER,           0 );
